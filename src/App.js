@@ -1,6 +1,7 @@
+import { Button } from 'antd';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Layout from './pages/layout';
-import Login from './pages/login';
+import Login from '@/pages/login';
 
 function App() {
   return (
